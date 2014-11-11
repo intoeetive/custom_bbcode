@@ -1,0 +1,8 @@
+The extension allows you to use your own custom BBCode / PMCode tags in ExpressionEngine.
+Add new tags one per row in settings. To the left, enter BBCode tag without brackets, to the right - corresponding HTML (separate opening and closing tags with pipe | )
+Example:
+If you want to add [spoiler][/spoiler] tag, enter:
+at the left
+spoiler
+at the right
+<span class="spoiler" onlick="this.style.backgroundColor='transparent';">|</span>
