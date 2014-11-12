@@ -47,7 +47,7 @@ class Custom_bbcode_ext
         
         $hooks = array(
     		array(
-    			'hook'		=> 'typography_parse_type_start',
+    			'hook'		=> 'typography_parse_type_end',
     			'method'	=> 'parse_custom_bbcode',
     			'priority'	=> 10
     		)
